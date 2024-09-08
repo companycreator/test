@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webshop - Ruhák</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #111;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        .product {
+            background-color: #444;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            width: 30%;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product h2 {
+            font-size: 1.5em;
+        }
+
+        .product p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .product button {
+            padding: 10px 20px;
+            background-color: #555;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .product button:hover {
+            background-color: #777;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #111;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Webshop - Ruhák</h1>
+</header>
+
+<section class="products">
+    <div class="product">
+        <img src="https://via.placeholder.com/300x400/000000/FFFFFF/?text=Ruha1" alt="Ruha 1">
+        <h2>Ruha 1</h2>
+        <p>Ár: 1000 Ft</p>
+        <button>Kosárba</button>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/300x400/000000/FFFFFF/?text=Ruha2" alt="Ruha 2">
+        <h2>Ruha 2</h2>
+        <p>Ár: 2000 Ft</p>
+        <button>Kosárba</button>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/300x400/000000/FFFFFF/?text=Ruha3" alt="Ruha 3">
+        <h2>Ruha 3</h2>
+        <p>Ár: 3000 Ft</p>
+        <button>Kosárba</button>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Webshop. Minden jog fenntartva.</p>
+</footer>
+
+</body>
+</html>
+
